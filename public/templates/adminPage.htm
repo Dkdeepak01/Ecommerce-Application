@@ -1,0 +1,35 @@
+<div class="adminPage">
+  <ul>
+    <li>
+      Product Name:<input type="text" id="title">
+    </li>
+    
+    <li>
+      Price:<input type="number" id="price">
+    </li>
+    <li>Category: 
+     <select name="" id="category">
+     <option value="jewelery"> Jewelery</option>
+     <option value="men's clothing"> Men's Clothing</option>
+     <option value="women's clothing"> Women's Clothing</option>
+     <option value="electronics"> Electronics</option>
+     <option value="stationary"> Stationary</option>
+     </select >
+
+    </li>
+    <li>
+      Description:<textarea name="" id="description" cols="15" rows="5"></textarea>
+
+    </li>
+    <li>
+      Product Image:<input type="text" id="image">
+
+    </li>
+    <li>
+      <button class="btn btn -primary" onclick="productAdd()">Add Detail</button>
+    </li>
+    <li id="statusmsg" style="display:none">
+      Added to Database
+    </li>
+  </ul>
+</div>

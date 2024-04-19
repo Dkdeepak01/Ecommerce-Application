@@ -1,0 +1,35 @@
+<div class="loginBlock">
+  <ul>
+    <li class="ll">User_login</li>
+    <li>
+      <input
+        type="text"
+        class="form-control"
+        id="accid"
+        placeholder="Username"
+      />
+    </li>
+    <li>
+      <input
+        type="password"
+        class="form-control"
+        id="accpwd"
+        placeholder="Password"
+      />
+    </li>
+    <li>
+      <input type="button" value="Login" class="btn btn primary" /
+      onclick="validateUserCredntial()" >
+    </li>
+    <li style="color: #fff"><input type="checkbox" id="chk" /> Remember Me</li>
+    <li>
+      <a href="#" onclick="loadselectedPage('forget');" class="link"
+        >Forgot-Password</a
+      >
+      <a href="#" onclick="loadselectedPage('newuser');" class="link"
+        >New-User</a
+      >
+    </li>
+    <li class="errors">Invalid Credential !!</li>
+  </ul>
+</div>
